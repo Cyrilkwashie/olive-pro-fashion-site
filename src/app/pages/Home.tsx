@@ -5,15 +5,15 @@ import { ProductCard } from "../components/ProductCard";
 import { products, categories } from "../data/products";
 
 const HERO_IMAGE =
-  "https://images.unsplash.com/photo-1673106020385-d7fd8fa77569?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBmYXNoaW9uJTIwY2xvdGhpbmclMjBjb2xsZWN0aW9uJTIwbG9va2Jvb2t8ZW58MXx8fHwxNzcyMTM1NzA1fDA&ixlib=rb-4.1.0&q=80&w=1080";
+  "https://i.pinimg.com/1200x/b9/66/6e/b9666ee5806aeb08397d84777ded0e15.jpg";
 
 const STORY_IMAGE =
   "https://images.unsplash.com/photo-1768039049614-f3c2bae3f1db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBmYXNoaW9uJTIwc3RvcmUlMjBpbnRlcmlvciUyMHdoaXRlJTIwY2xlYW58ZW58MXx8fHwxNzcyMTM1NzEyfDA&ixlib=rb-4.1.0&q=80&w=1080";
 
 const CATEGORY_IMAGES = [
-  "https://images.unsplash.com/photo-1762605135012-56a59a059e60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwd29tZW4lMjBmYXNoaW9uJTIwZWRpdG9yaWFsJTIwbWluaW1hbHxlbnwxfHx8fDE3NzIxMzU3MDN8MA&ixlib=rb-4.1.0&q=80&w=600",
-  "https://images.unsplash.com/photo-1706188458155-f2803026b3c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHNraXJ0JTIwcGxlYXRlZCUyMG1pZGklMjBlbGVnYW50fGVufDF8fHx8MTc3MjEzNTcxM3ww&ixlib=rb-4.1.0&q=80&w=600",
-  "https://images.unsplash.com/photo-1715408153725-186c6c77fb45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGJsYXplciUyMGNvYXQlMjBjaGljJTIwZmFzaGlvbnxlbnwxfHx8fDE3NzIxMzU3MDd8MA&ixlib=rb-4.1.0&q=80&w=600",
+  "https://i.pinimg.com/1200x/d5/2d/43/d52d438e4c6efff9a096f556ef24d835.jpg", // Dresses
+  "https://i.pinimg.com/736x/5e/7a/85/5e7a853a60f0c8a804bf45137b0100b5.jpg",   // Skirts
+  "https://i.pinimg.com/736x/14/41/06/14410637606b2a3cadd5069f4a2fe7d3.jpg",   // Jackets
 ];
 
 const featuredProducts = products.slice(0, 4);

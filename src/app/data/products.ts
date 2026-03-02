@@ -38,7 +38,7 @@ export const products: Product[] = [
       { name: "Slate", hex: "#8FA3B1" },
     ],
     image:
-      "https://images.unsplash.com/photo-1762605135012-56a59a059e60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwd29tZW4lMjBmYXNoaW9uJTIwZWRpdG9yaWFsJTIwbWluaW1hbHxlbnwxfHx8fDE3NzIxMzU3MDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://i.pinimg.com/1200x/d5/2d/43/d52d438e4c6efff9a096f556ef24d835.jpg",
     isNew: true,
     rating: 4.8,
     reviewCount: 127,
@@ -64,7 +64,7 @@ export const products: Product[] = [
       { name: "Charcoal", hex: "#3A3A48" },
     ],
     image:
-      "https://images.unsplash.com/photo-1715408153725-186c6c77fb45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGJsYXplciUyMGNvYXQlMjBjaGljJTIwZmFzaGlvbnxlbnwxfHx8fDE3NzIxMzU3MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://i.pinimg.com/736x/14/41/06/14410637606b2a3cadd5069f4a2fe7d3.jpg",
     rating: 4.9,
     reviewCount: 84,
   },
@@ -90,7 +90,7 @@ export const products: Product[] = [
       { name: "Blush", hex: "#E8C4B8" },
     ],
     image:
-      "https://images.unsplash.com/photo-1677779817420-b3ad7a4a1f2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxrbml0d2VhciUyMHN3ZWF0ZXIlMjBmYXNoaW9uJTIwZWRpdG9yaWFsJTIwYmVpZ2V8ZW58MXx8fHwxNzcyMTM1NzEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://i.pinimg.com/1200x/ec/9f/0e/ec9f0e8992784023307f16ca8b21bada.jpg",
     isSale: true,
     rating: 4.7,
     reviewCount: 203,
@@ -116,7 +116,7 @@ export const products: Product[] = [
       { name: "Dusty Mauve", hex: "#C4A8B0" },
     ],
     image:
-      "https://images.unsplash.com/photo-1706188458155-f2803026b3c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHNraXJ0JTIwcGxlYXRlZCUyMG1pZGklMjBlbGVnYW50fGVufDF8fHx8MTc3MjEzNTcxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://i.pinimg.com/736x/5e/7a/85/5e7a853a60f0c8a804bf45137b0100b5.jpg",
     isNew: true,
     rating: 4.6,
     reviewCount: 56,
@@ -142,7 +142,7 @@ export const products: Product[] = [
       { name: "Champagne", hex: "#E8DCC8" },
     ],
     image:
-      "https://images.unsplash.com/photo-1770294758942-7ce9ca052986?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHNpbGslMjBibG91c2UlMjBlbGVnYW50JTIwd2hpdGUlMjBzdHVkaW98ZW58MXx8fHwxNzcyMTM1NzA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://i.pinimg.com/736x/67/aa/75/67aa75d9cf9c61bc1ca14755afd158d8.jpg",
     rating: 4.8,
     reviewCount: 92,
   },
@@ -167,7 +167,7 @@ export const products: Product[] = [
       { name: "Black", hex: "#1C1C1C" },
     ],
     image:
-      "https://images.unsplash.com/photo-1687276154818-d555a7b337ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwbW9kZWwlMjB0cm91c2VycyUyMG1pbmltYWxpc3QlMjBncmV5fGVufDF8fHx8MTc3MjEzNTcwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://i.pinimg.com/736x/60/b5/d9/60b5d9eb98253f2bae0157fb496548e2.jpg",
     rating: 4.7,
     reviewCount: 148,
   },
@@ -192,7 +192,7 @@ export const products: Product[] = [
       { name: "Terracotta", hex: "#C07858" },
     ],
     image:
-      "https://images.unsplash.com/photo-1623421536531-44b051d7e0fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGxpbmVuJTIwc3VtbWVyJTIwZHJlc3MlMjBuZXV0cmFsJTIwdG9uZXN8ZW58MXx8fHwxNzcyMTM1NzEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://i.pinimg.com/1200x/d5/2d/43/d52d438e4c6efff9a096f556ef24d835.jpg",
     isNew: true,
     rating: 4.9,
     reviewCount: 71,
@@ -219,7 +219,7 @@ export const products: Product[] = [
       { name: "Black", hex: "#1C1C1C" },
     ],
     image:
-      "https://images.unsplash.com/photo-1771197933092-e6c85ab781c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b21lbiUyMG92ZXJjb2F0JTIwdHJlbmNoJTIwY29hdCUyMHN0cmVldCUyMHN0eWxlfGVufDF8fHx8MTc3MjEzNTcxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://i.pinimg.com/736x/14/41/06/14410637606b2a3cadd5069f4a2fe7d3.jpg",
     isSale: true,
     rating: 4.9,
     reviewCount: 165,
