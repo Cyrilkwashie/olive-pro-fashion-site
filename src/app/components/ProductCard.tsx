@@ -139,7 +139,7 @@ export function ProductCard({ product }: ProductCardProps) {
               <p
                 style={{
                   fontFamily: "'DM Sans', sans-serif",
-                  fontSize: "0.7rem",
+                  fontSize: "clamp(0.52rem, 1.5vw, 0.7rem)",
                   letterSpacing: "0.1em",
                   color: "#9A9AAD",
                 }}
@@ -150,7 +150,7 @@ export function ProductCard({ product }: ProductCardProps) {
               <h3
                 style={{
                   fontFamily: "'Cormorant Garamond', serif",
-                  fontSize: "1.05rem",
+                  fontSize: "clamp(0.78rem, 2.5vw, 1.05rem)",
                   fontWeight: 400,
                   color: "#1A1A2E",
                   letterSpacing: "0.02em",
@@ -175,7 +175,7 @@ export function ProductCard({ product }: ProductCardProps) {
               <p
                 style={{
                   fontFamily: "'DM Sans', sans-serif",
-                  fontSize: "0.85rem",
+                  fontSize: "clamp(0.65rem, 1.8vw, 0.85rem)",
                   color: product.isSale ? "#C87060" : "#1A1A2E",
                   fontWeight: 400,
                 }}

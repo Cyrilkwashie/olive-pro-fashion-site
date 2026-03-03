@@ -315,7 +315,7 @@ export default function Home() {
             </Link>
           </motion.div>
 
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-6">
+          <div className="grid grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 lg:gap-6">
             {featuredProducts.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
@@ -481,7 +481,7 @@ export default function Home() {
               Shop the Collection
             </h2>
           </motion.div>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-6">
+          <div className="grid grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 lg:gap-6">
             {products.slice(4).map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}

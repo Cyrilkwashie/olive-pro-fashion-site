@@ -250,10 +250,7 @@ export default function Shop() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className={`grid grid-cols-2 gap-5 lg:gap-6 pb-20`}
-              style={{
-                gridTemplateColumns: `repeat(${grid}, minmax(0, 1fr))`,
-              }}
+              className={`grid ${grid === 4 ? 'grid-cols-3 lg:grid-cols-4' : 'grid-cols-3'} gap-3 sm:gap-4 lg:gap-6 pb-20`}
             >
               {filtered.map((product) => (
                 <ProductCard key={product.id} product={product} />

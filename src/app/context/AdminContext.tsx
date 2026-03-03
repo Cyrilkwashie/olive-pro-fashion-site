@@ -181,6 +181,9 @@ const seedCustomers: Customer[] = [
   { id: "c8", name: "Elena Vasquez", email: "elena.v@email.com", avatar: "EV", ordersCount: 1, totalSpent: 225, joinedDate: "2026-02-12", location: "Madrid, Spain" },
 ];
 
+// ── Auth ──────────────────────────────────────────────────────────────────────
+const ADMIN_PASSWORD = "password";
+
 // ── Context Types ─────────────────────────────────────────────────────────────
 interface AdminContextType {
   products: Product[];
@@ -192,6 +195,10 @@ interface AdminContextType {
   updateOrderStatus: (id: string, status: OrderStatus) => void;
 
   customers: Customer[];
+
+  isAuthenticated: boolean;
+  login: (password: string) => boolean;
+  logout: () => void;
 }
 
 const AdminContext = createContext<AdminContextType | undefined>(undefined);
@@ -200,6 +207,19 @@ export function AdminProvider({ children }: { children: React.ReactNode }) {
   const [products, setProducts] = useState<Product[]>(initialProducts);
   const [orders, setOrders] = useState<Order[]>(seedOrders);
   const [customers] = useState<Customer[]>(seedCustomers);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+
+  const login = useCallback((password: string) => {
+    if (password === ADMIN_PASSWORD) {
+      setIsAuthenticated(true);
+      return true;
+    }
+    return false;
+  }, []);
+
+  const logout = useCallback(() => {
+    setIsAuthenticated(false);
+  }, []);
 
   const addProduct = useCallback((product: Omit<Product, "id">) => {
     const id = `p${Date.now()}`;
@@ -230,6 +250,9 @@ export function AdminProvider({ children }: { children: React.ReactNode }) {
         orders,
         updateOrderStatus,
         customers,
+        isAuthenticated,
+        login,
+        logout,
       }}
     >
       {children}
